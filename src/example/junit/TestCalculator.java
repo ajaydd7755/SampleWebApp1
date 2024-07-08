@@ -36,8 +36,8 @@ public class TestCalculator {
 	 
 	 @Test
 	 public void testMultiply() {
-		  double result = calc.multiply(2.5, 100);
-		  org.junit.Assert.assertEquals(250, result, 0);
+		  double result = calc.multiply(3.5, 100);
+		  org.junit.Assert.assertEquals(350, result, 0);
 	 }
 	 
 	 @Test
