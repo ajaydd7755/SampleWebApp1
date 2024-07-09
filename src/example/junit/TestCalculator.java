@@ -24,8 +24,8 @@ public class TestCalculator {
 	 
 	 @Test
 	 public void testAdd() {
-		  double result = calc.add(500,400);
-		  org.junit.Assert.assertEquals(900, result, 0);
+		  double result = calc.add(200,200);
+		  org.junit.Assert.assertEquals(30, result, 0);
 	 }
 	 
 	 @Test
